@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #hov1 {
+            transition: 1s;
+
+        }
+
+        #hov1:hover {
+
+            transform: scale(1.3);
+        }
+
+        .col-4 {
+            transition: 1s;
+
+
+        }
+
+        .col-4:hover {
+
+            transform: scale(1.1);
+        }
+
+        #h1 {
+            font-family: 'kanit', sans-serif;
+            font-style: italic;
+            font-size: 80px;
+            font-weight: bold;
+            background-image: url('https://cdn.pixabay.com/photo/2020/07/29/08/33/coffee-5447420_960_720.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-size: ;
+            transition: 0.5s;
+
+
+
+        }
+
+        #h1:hover {
+
+            transform: scale(1.2);
+            font-family: 'kanit', sans-serif;
+            font-style: italic;
+            font-size: 80px;
+            font-weight: bold;
+            background-image: url('https://cdn.pixabay.com/photo/2013/08/11/19/46/coffee-171653_960_720.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-size: ;
+            transition: 0.5s;
+
+        }
+
+        .row {
+            display: flex;
+        }
+
+        section {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #h11 {
+
+            font-family: 'kanit', sans-serif;
+            font-style: italic;
+            font-size: 80px;
+            font-weight: bold;
+            background-image: url('https://cdn.pixabay.com/photo/2020/07/29/08/33/coffee-5447420_960_720.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-size: ;
+            transition: 0.5s;
+
+
+
+        }
+
+        #h11:hover {
+
+            transform: scale(1.2);
+            font-family: 'kanit', sans-serif;
+            font-style: italic;
+            font-size: 80px;
+            font-weight: bold;
+            background-image: url('https://cdn.pixabay.com/photo/2013/08/11/19/46/coffee-171653_960_720.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-size: ;
+            transition: 0.5s;
+
+
+
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+    
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+        <div style="background-color: rgb(1, 8, 6);" class="container-fluid ">
+            <img src="./images/logo.PNG" alt="" width="110px" height="75px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active  text-light" aria-current="page" href="#">Home</a>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="https://www.starbucks.in/ordering">Order</a>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link  text-light"
+                            href="https://customerservice.starbucks.com/app/contact/ask/">Contact</a>
+                    </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="https://www.starbucks.in/store">store</a>
+
+
+
+                </ul>
+                <a
+                    href="https://www.trackmyitems.org/starbucks-order-delivery-status-online-tracking/#:~:text=You%20can%20also%20know%20your%20Starbucks%20order%20status,of%20your%20order.%20Phone%20Number%3A%201-877-421-9062%20%28toll%20free%29"><button
+                        class=" me-5 border border-2 bg-outline-secondary bg-light">TRACK MY ORDER</button></a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="">
+        <img id="img1" style="" src="./images/coffee.jpg" width="100%" alt="">
+    </div><br><br>
+    <div style="width: 100%;height: 400px;" class="bg-dark text-light pt-5 text-center mb-5">
+        <h1 style="margin-top: 100px;" id="hov1">HOME BAKES MADE WITH LOVE, PASSION,<br> AND METICULOUS ATTENTION TO
+            DETAIL</h1>
+
+
+    </div>
+
+    <div class="container text-center">
+        <section>
+            <h1 id="h1">COFFEEESS</h1>
+        </section><br>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/coffee1.jpg" alt="" width="100%">
+                <h2>What is an Americano?</h2>
+                <p>The americano is often mistaken for just a standard black coffee, but it's so much more than that.
+                </p>
+                <a href="https://www.nescafe.com/in/coffee-types/what-is-an-americano"><button
+                        class="border border-secondary border-2 text-dark">Find out more</button></a>
+            
+
+            </div>
+            <div class="col-4">
+                <img src="./images/coffee2.jpg" alt="" width="100%">
+                <h2>What is a Cortado?</h2>
+                <p>The cortado is relatively new in the world of coffee and many get it confused with a flat white. So,
+                    what is a cortado and what makes it different?</p>
+                <a href="https://www.nescafe.com/in/coffee-types/what-is-a-cortado-coffee"><button
+                        class="border border-secondary border-2 text-dark">Find out more</button></a>
+            </div>
+            <div class="col-4">
+                <img src="./images/coffee3.jpg" alt="" width="100%">
+                <h2>What is a Mocha?</h2>
+                <p>Deliciously sweet, nutty and chocolatey. Find out what is a mocha, where it came from & how it's
+                    different.</p>
+                <a href="https://www.nescafe.com/in/coffee-types/what-is-a-mocha"><button
+                        class="border border-secondary border-2 text-dark">Find out more</button></a>
+            </div>
+            </div>
+
+        </div><br>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://www.nescafe.com/in/sites/default/files/2022-06/macchiato-thumbnail-desktop.jpg"
+                        alt="" width="100%">
+                    <h2>What is a Macchiato?</h2>
+                    <p>An espresso coffee drink, topped with a small amount of foamed milk to enable the espresso taste
+                        to shine through.</p>
+                    <a href="https://www.nescafe.com/in/coffee-types/what-is-a-macchiato"> <button
+                            class="border border-secondary border-2 text-dark">Find out more</button></a>
+
+
+                </div>
+                <div class="col-4">
+                    <img src="https://www.nescafe.com/in/sites/default/files/2022-06/flat-white-thumbnail-desktop.jpg"
+                        alt="" width="100%">
+                    <h2>What is a Flat White?</h2>
+                    <p>A newcomer in the coffee world that is increasing popular. Learn exactly what a flat white is and
+                        where it came from, here.</p>
+                    <a href="https://www.nescafe.com/in/coffee-types/what-is-a-flat-white"><button
+                            class="border border-secondary border-2 text-dark">Find out more</button></a>
+                </div>
+                <div class="col-4">
+                    <img src="https://www.nescafe.com/in/sites/default/files/2022-06/decaf-coffee-thumbnaiil-desktop.jpg"
+                        alt="" width="100%">
+                    <h2>What is a Decaf?</h2>
+                    <p>Many people like to enjoy a cup of decaf coffee as it offers the delicious taste with less
+                        caffeine content. But what is decaf coffee, exactly?</p>
+                    <a href="https://www.nescafe.com/in/coffee-types/what-is-a-decaf-coffee"> <button
+                            class="border border-secondary border-2 text-dark">Find out more</button></a>
+                </div>
+                </div>
+
+            </div>
+            <br><br>
+            <hr>
+
+            <div style="height: 1000px;width: 100%;background-color: rgb(235, 204, 110);">
+
+                <div class="row">
+                    <section>
+                        <h1 id="h11" class="text-center p-4">COFFEE BRANDS</h1>
+                    </section>
+
+                    <div class="col">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-p/0f/51/1a/6e/starbucks.jpg" alt=""
+                            width="100%">
+                    </div>
+                    <div class="col">
+                        <h1>1. Starbucks</h1>
+                        <p>It was here where Starbucks opened its first store, offering fresh-roasted coffee beans, tea
+                            and spices from around the world for our customers to take home. Our name was inspired by
+                            the classic tale, “Moby-Dick,” evoking the seafaring tradition of the early coffee traders.
+                            It takes many hands to craft the perfect cup of coffee – from the farmers who tend to the
+                            red-ripe coffee cherries, to the master roasters who coax the best from every bean, and to
+                            the barista who serves it with care. We are committed to the highest standards of quality
+                            and service, embracing our heritage while innovating to create new experiences to savor.
+                            Starbucks Corporation is an American multinational chain of coffeehouses and roastery
+                            reserves headquartered in Seattle, Washington. It is the world's largest coffeehouse chain.
+
+                            As of November 2021, the company had 33,833 stores in 80 countries, 15,444 of which were
+                            located in the United States. Out of Starbucks' U.S.-based stores, over 8,900 are
+                            company-operated, while the remainder are licensed.[3]
+
+                            The rise of the second wave of coffee culture is generally attributed to Starbucks, which
+                            introduced a wider variety of coffee experiences. Starbucks serves hot and cold drinks,
+                            whole-bean coffee, micro-ground instant coffee, espresso, caffe latte, full and loose-leaf
+                            teas, juices, Frappuccino beverages, pastries, and snacks. Some offerings are seasonal or
+                            specific to the locality of the store. Depending on the country, most locations provide free
+                            Wi-Fi Internet access.
+                        </p>
+
+                    </div>
+
+
+                </div>
+                <div style="height:525px;width: 100%;background-color: rgb(235, 204, 110);">
+
+                    <div class="row">
+
+                        <div class="col">
+                            <img src="https://images.jdmagicbox.com/comp/chennai/w9/011pxx11.xx11.200629165515.i5w9/catalogue/costa-coffee-anand-gram-delhi-coffee-shops-cal8cxv562.jpg"
+                                alt="" width="100%">
+                        </div>
+                        <div class="col">
+                            <h1>2. Costa coffee</h1>
+                            <p class="container ps-5 ms-1">Costa Coffee is a British coffeehouse chain with headquarters in Dunstable, England.
+
+                                Costa Coffee was founded in London in 1971 by Sergio Costa as a wholesale operation
+                                supplying roasted coffee to caterers and specialist Italian coffee shops. It was
+                                acquired by Whitbread in 1995, sold in 2019 to The Coca-Cola Company in a deal worth
+                                £3.9bn, and has grown to 3,401 stores across 31 countries and 18,412 employees. The
+                                business has 2,121 UK restaurants, over 6,000 Costa Express vending facilities and a
+                                further 1,280 outlets overseas, including 460 in China.[1][2]
+
+                                Coca-Cola acquired Costa from parent company Whitbread PLC for US$5.1 billion on 3
+                                January 2019, providing a coffee platform across parts of Europe, Asia Pacific, the
+                                Middle East, and Africa.[3]
+
+                                Costa is the second largest coffeehouse chain in the world, and the largest in the UK.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+                    <div style="height: 428px;width: 100%;background-color: rgb(235, 204, 110);">
+
+                        <div class="row">
+
+                            <div class="col">
+                                <img src="https://www.nescafe.com/in/sites/default/files/styles/text_image_carousal_column_2_desktop/public/2022-06/NesCl_BR-banner_1042x540.jpg?h=7b5c2175&itok=88qCoSCD"
+                                    alt="" width="100%">
+                            </div>
+                            <div class="col">
+                                <h1>3. Nescafe</h1>
+                                <p>
+                                    Taster's Choice" redirects here. For the Italian band, see Tasters (band). For the
+                                    advertising campaign, see Gold Blend couple.
+                                    Nescafé
+                                    Nescafé Logo
+                                    Logo since 2014[1][2]
+                                    Product type Coffee
+                                    Owner Nestlé
+                                    Country Switzerland
+                                    Introduced April 1, 1938; 84 years ago
+                                    Markets Worldwide
+                                    Tagline It all starts with a Nescafé.
+                                    Website Official website
+                                    Nescafé is a brand of coffee made by Nestlé. It comes in many different forms. The
+                                    name is a portmanteau of the words "Nestlé" and "café".[3] Nestlé first introduced
+                                    their flagship coffee brand in Switzerland on 1 April 1938.[3]
+
+
+                                </p>
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <!-- Footer -->
+                        <footer class="bg-dark text-center text-white">
+                            <!-- Grid container -->
+                            <div class="">
+                                <!-- Section: Social media -->
+                                <section class="">
+                                    <!-- Facebook -->
+                                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                            class="fab fa-facebook-f"></i></a>
+
+                                    <!-- Twitter -->
+                                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                            class="fab fa-twitter"></i></a>
+
+                                    <!-- Google -->
+                                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                            class="fab fa-google"></i></a>
+
+                                    <!-- Instagram -->
+                                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                            class="fab fa-instagram"></i></a>
+
+                                    <!-- Linkedin -->
+                                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                            class="fab fa-linkedin-in"></i></a>
+
+                                    <!-- Github -->
+                                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                            class="fab fa-github"></i></a>
+                                </section><br>
+                                <!-- Section: Social media -->
+
+                                <!-- Section: Form -->
+                                <section class="">
+                                    <form action="">
+                                        <!--Grid row-->
+                                        <div class="row d-flex justify-content-center">
+                                            <!--Grid column-->
+                                            <div class="col-auto">
+                                                <p class="pt-2">
+                                                    <strong>Sign up for our newsletter</strong>
+                                                </p>
+                                            </div>
+                                            <!--Grid column-->
+
+                                            <!--Grid column-->
+                                            <div class="col-md-5 col-12">
+                                                <!-- Email input -->
+                                                <div class="form-outline form-white mb-4">
+                                                    <input type="email" id="form5Example21" class="form-control" />
+                                                    <label class="form-label" for="form5Example21">Email address</label>
+                                                </div>
+                                            </div>
+                                            <!--Grid column-->
+
+                                            <!--Grid column-->
+                                            <div class="col-auto">
+                                                <!-- Submit button -->
+                                                <button type="submit" class="btn btn-outline-light mb-4">
+                                                    Subscribe
+                                                </button>
+                                            </div>
+                                            <!--Grid column-->
+                                        </div>
+                                        <!--Grid row-->
+                                    </form>
+                                </section>
+                                <!-- Section: Form -->
+
+                                <!-- Section: Text -->
+                                <section class="mb-4 text-center pt-5">
+                                    <p class="texr-center">
+                                        Our Coffee Shop offers a unique coffee house environment unlike any other in
+                                        Macon. We are not only a place to drop in and get your morning cup of coffee
+                                        (although you are more than welcome to do that), we are a place where you can
+                                        sit down and enjoy that tailor-made cup of coffee. If you need to work, we have
+                                        a seating area created specifically for you.
+                                        If you need to rest, we have a soft-seating area in front of a stone fire place
+                                        that is perfect for your weary mind and body. We offer a delicious variety of
+                                        coffee from Safehouse Coffee made by our professionally trained baristas. We
+                                        have everything from classic coffee to our house made specialty beverages. All
+                                        of our sauces & syrups are made in-house with all natural ingredients (no
+                                        chemicals or preservatives) ensuring you the highest quality in taste & health.
+                                        <br>
+                                        You can complete your coffee with one of our delicious sweet treats made by our
+                                        very own baker. We look forward to serving you at our coffee shop
+                                    </p>
+                                </section>
+                                <!-- Section: Text -->
+
+                                <!-- Section: Links -->
+                                <section class="">
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <!--Grid column-->
+                                        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+
+                                            <!--Grid column-->
+                                        </div>
+                                        <!--Grid row-->
+                                </section>
+                                <!-- Section: Links -->
+                            </div>
+                            <!-- Grid container -->
+
+                            <!-- Copyright -->
+                            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                                © 2020 Copyright:
+                                <a class="text-white" href="https://mdbootstrap.com/">CoFFEE</a>
+                            </div>
+                            <!-- Copyright -->
+                        </footer>
+                        <!-- Footer -->
+
+
+
+</body>
+
+</html>
